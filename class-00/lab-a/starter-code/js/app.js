@@ -120,7 +120,7 @@ container.addEventListener('click', handleClick);
 
 document.getElementById('bus').addEventListener('click', function(){
   localStorage.removeItem('busmall');
-  console.log('Local storage was cleared!');
+  console.log(`Local storage was cleared!`);
 });
 
 if(localStorage.busmall){
